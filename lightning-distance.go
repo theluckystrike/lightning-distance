@@ -2,8 +2,9 @@
 // the delay between seeing the flash and hearing the thunder. The light from
 // the strike arrives essentially instantly (light travels ~300,000 km/s, so
 // even a 50 km strike is seen in well under a millisecond), so the entire
-// measurable delay is sound travel time. This is the same physics behind the
-// EarlyThunder lightning distance calculator at https://earlythunder.com/.
+// measurable delay is sound travel time.
+//
+// Written and maintained by the author of https://earlythunder.com/.
 //
 // Speed of sound in air depends on temperature. At 20 °C (68 °F) dry air it is
 // ~343 m/s. DistanceKm uses a temperature-corrected speed of sound:

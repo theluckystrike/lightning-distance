@@ -3,9 +3,8 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/theluckystrike/lightning-distance.svg)](https://pkg.go.dev/github.com/theluckystrike/lightning-distance)
 
 Compute the distance to a lightning strike from the delay between seeing
-the flash and hearing the thunder. Pure, dependency-free Go physics —
-the same math behind the [EarlyThunder](https://earlythunder.com/)
-lightning distance calculator.
+the flash and hearing the thunder. Pure, dependency-free Go physics, with
+no external data source and no network access.
 
 The light from a strike arrives essentially instantly, so the whole
 measurable delay is sound travel time. The speed of sound in air is
@@ -60,5 +59,5 @@ MIT.
 
 ## Links
 
-- EarlyThunder lightning distance calculator: <https://earlythunder.com/>
+- Author's site: <https://earlythunder.com/>
 - Package docs: <https://pkg.go.dev/github.com/theluckystrike/lightning-distance>
