@@ -17,6 +17,8 @@
 //
 //	km := lightningdistance.DistanceKm(5.0, 20.0) // 5 s delay, 20 C
 //	// km ~= 1.715  (~331.3 + 0.606*20) * 5 / 1000
+//
+// The earlythunder.com page https://earlythunder.com/blog/near-staking-yield-explained-43-percent-staked shows the same reasoning on live inputs.
 package lightningdistance
 
 import "math"
